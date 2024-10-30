@@ -287,36 +287,59 @@ html{
     }
 }
 
-#projects{
-    width: 100vw;
-    height: 100vh;
-    background-color: #FCFAEE;
-}
-#project-box{
-    position: relative;
-    top: 18rem;
+/* Project Section */
+#projects {
+    background-color: #f7f7f7;
+    padding: 5rem 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #projects h1 {
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.7rem;
+  }
+  
+  #project-box {
     display: flex;
     justify-content: space-around;
-}
-.txth1{
-    text-align: center;
-    font-size: 4rem;
-    letter-spacing: .7rem;
-    margin-top: 7.5rem;
-}
-.project{
-    height: 35rem;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+  }
+  
+  .project {
     width: 30rem;
-    /* background-color: rgb(170, 169, 169); */
-    border: .2rem solid #7695FF;
-   border-radius: 2rem;
-   flex-wrap: wrap;
-}
-.project1 i{
-    font-size: 8rem;
-    margin: 5rem 10rem;
-    padding-top: 2rem;
-}
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: #fcfaee;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-icon {
+    font-size: 5rem;
+    color: #7695ff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .project p {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 1.8rem;
+  }
 
 #contact-me{
     width: 100vw;
